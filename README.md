@@ -4,6 +4,7 @@
 
 ![GO](./assets/go.png)
 ![TSX](./assets/tsx.png)
+![RUST](./assets/rust.png)
 and for many more
 ## Installation
 
