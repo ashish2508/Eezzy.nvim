@@ -2,11 +2,9 @@
 
 ## Preview
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./assets/go.png" alt="GO" width="50%">
-  <img src="./assets/tsx.png" alt="TSX" width="50%">
-</div>
-<img src="./assets/rust.png" alt="RUST" width="70%">
+  <img src="./assets/go.png" alt="GO" width="80%">
+  <img src="./assets/tsx.png" alt="TSX" width="80%">
+<img src="./assets/rust.png" alt="RUST" width="80%">
 
 and for many more
 
