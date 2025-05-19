@@ -3,9 +3,9 @@
 ## Preview
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="./assets/go.png" alt="GO" width="33.33%">
-  <img src="./assets/tsx.png" alt="TSX" width="33.33%">
-  <img src="./assets/rust.png" alt="RUST" width="33.33%">
+  <img src="./assets/go.png" alt="GO" width="33%">
+  <img src="./assets/tsx.png" alt="TSX" width="33%">
+  <img src="./assets/rust.png" alt="RUST" width="33%">
 </div>
 
 and for many more
