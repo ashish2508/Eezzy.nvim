@@ -1,4 +1,4 @@
-# PurpleILike Theme
+# Eezzy Theme
 
 ## Preview
 
@@ -10,21 +10,21 @@ and for many more
 1. Using `Lazy`:
 
 ```lua
-{ 'ashish2508/PurpleILike' },
+{ 'ashish2508/Eezzy.nvim' },
 ```
 
 2. Using `Packer`:
 
 ```lua
-use 'ashish2508/PurpleILike'
+use 'ashish2508/Eezzy.nvim'
 ```
 
 ## Configuration
 
-To configure the plugin, you can call require('PurpleILike').setup({}), passing the table with the values in it. The following are the **defaults**:
+To configure the plugin, you can call require('Eezzy').setup({}), passing the table with the values in it. The following are the **defaults**:
 
 ```lua
-require('PurpleILike').setup({
+require('Eezzy').setup({
     -- NOTE: if your configuration sets vim.o.background in your configuration for Neovim,
     -- the following setting will do nothing, since it'll be overriden.
     transparent = false, -- Boolean: Sets the background to transparent
@@ -41,7 +41,7 @@ require('PurpleILike').setup({
 
 - **The `colorscheme()` function**
 
-This function can be used to set the colorscheme in your editor, however, if it doesn't work for you, you can always use `vim.cmd.colorscheme('PurpleILike')`.
+This function can be used to set the colorscheme in your editor, however, if it doesn't work for you, you can always use `vim.cmd.colorscheme('Eezzy')`.
 
 ### Specifics for Some Plugins
 
@@ -51,7 +51,7 @@ To use the theme with [bufferline.nvim](https://github.com/akinsho/bufferline.nv
 
 ```lua
 require('bufferline').setup({
-    highlights = require('PurpleILike').highlights.bufferline,
+    highlights = require('Eezzy').highlights.bufferline,
 })
 ```
 

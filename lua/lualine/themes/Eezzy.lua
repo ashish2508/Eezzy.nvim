@@ -1,5 +1,5 @@
-local config = require("PurpleILike.config")
-local colors = require("PurpleILike.colors")
+local config = require("Eezzy.config")
+local colors = require("Eezzy.colors")
 
 local M = {}
 

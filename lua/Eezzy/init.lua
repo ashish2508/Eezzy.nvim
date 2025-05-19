@@ -1,6 +1,6 @@
-local colors = require("PurpleILike.colors")
-local config = require("PurpleILike.config")
-local utils = require("PurpleILike.utils")
+local colors = require("Eezzy.colors")
+local config = require("Eezzy.config")
+local utils = require("Eezzy.utils")
 
 local M = {}
 
@@ -9,8 +9,8 @@ function M.setup(options)
 	setmetatable(config, { __index = vim.tbl_extend("force", config.defaults, options) })
 
 	M.highlights = { bufferline = {}, navic = {} }
-	M.highlights.bufferline = require("PurpleILike.integrations.bufferline").highlights(config)
-	M.highlights.navic = require("PurpleILike.integrations.navic").highlights(config)
+	M.highlights.bufferline = require("Eezzy.integrations.bufferline").highlights(config)
+	M.highlights.navic = require("Eezzy.integrations.navic").highlights(config)
 end
 
 function M.colorscheme()
@@ -21,7 +21,7 @@ function M.colorscheme()
 
 	vim.g.VM_theme_set_by_colorscheme = true
 	vim.o.termguicolors = true
-	vim.g.colors_name = "PurpleILike"
+	vim.g.colors_name = "Eezzy"
 
 	M.set_terminal_colors()
 	M.set_groups()
@@ -347,7 +347,7 @@ function M.set_groups()
 	}
 
 	-- integrations
-	groups = vim.tbl_extend("force", groups, require("PurpleILike.integrations.cmp").highlights())
+	groups = vim.tbl_extend("force", groups, require("Eezzy.integrations.cmp").highlights())
 
 	-- overrides
 	groups = vim.tbl_extend(
