@@ -7,7 +7,7 @@ standardBlack="#000000",
 }
 
 if vim.o.background=="light" then
-M.editorBackground=config.transparent and "NONE" or hsl(258,20,95)
+M.editorBackground=config.transparent and "NONE" or hsl(0,0,100)
 M.popupBackground=hsl(260,24,98)
 M.menuOptionBackground=hsl(260,18,92)
 
