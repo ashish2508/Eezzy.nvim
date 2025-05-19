@@ -1,5 +1,5 @@
-local config = require("vercel.config")
-local colors = require("vercel.colors")
+local config = require("PurpleILike.config")
+local colors = require("PurpleILike.colors")
 
 local M = {}
 

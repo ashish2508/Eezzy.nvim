@@ -1,5 +1,5 @@
-local config=require("vercel.config")
-local hsl=require("vercel.utils").hsl
+local config=require("PurpleILike.config")
+local hsl=require("PurpleILike.utils").hsl
 
 local M={
 standardWhite="#ffffff",
