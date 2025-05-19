@@ -1,31 +1,22 @@
 # PurpleILike Theme
 
-<a href="https://dotfyle.com/plugins/ashish2508/PurpleILike.nvim">
-  <img src="https://dotfyle.com/plugins/ashish2508/PurpleILike.nvim/shield" />
-</a>
-
 ## Preview
 
-### Light Theme
-
-![Light Theme](./assets/preview-light.png)
-
-### Dark Theme
-
-![Dark Theme](./assets/preview-dark.png)
-
+![GO](./assets/go.png)
+![TSX](./assets/tsx.png)
+and for many more
 ## Installation
 
 1. Using `Lazy`:
 
 ```lua
-{ 'ashish2508/PurpleILike.nvim' },
+{ 'ashish2508/PurpleILike' },
 ```
 
 2. Using `Packer`:
 
 ```lua
-use 'ashish2508/PurpleILike.nvim'
+use 'ashish2508/PurpleILike'
 ```
 
 ## Configuration
