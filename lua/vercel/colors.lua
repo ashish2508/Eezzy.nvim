@@ -7,16 +7,16 @@ local M = {
 }
 
 if vim.o.background == "light" then
-	M.editorBackground = config.transparent and "NONE" or hsl(0, 0, 100)
-	M.popupBackground = hsl(240, 4.8, 95.9)
-	M.menuOptionBackground = hsl(0, 0, 74)
+	M.editorBackground = config.transparent and "NONE" or hsl(1, 9, 2)
+	M.popupBackground = hsl(285, 10, 100)
+	M.menuOptionBackground = hsl(281, 0, 78)
 
-	M.mainText = hsl(240, 10, 3.9)
-	M.inactiveText = hsl(0, 0, 64)
-	M.lineNumberText = hsl(0, 0, 9)
-	M.lineNumberTextActive = hsl(0, 0, 74)
-	M.selectedText = hsl(0, 0, 85)
-	M.border = hsl(0, 0, 85)
+	M.mainText = hsl(280, 10, 4)
+	M.inactiveText = hsl(0, 3, 81)
+	M.lineNumberText = hsl(281, 13, 9)
+	M.lineNumberTextActive = hsl(281, 13, 67)
+	M.selectedText = hsl(280, 0, 83)
+	M.border = hsl(280, 30, 98)
 
 	M.syntaxConstant = hsl(211, 100, 42)
 	M.syntaxKeyword = hsl(336, 65, 45)
