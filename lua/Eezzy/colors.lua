@@ -5,7 +5,7 @@ local M                 = {
   standardBlack = "#000000",
 }
 
-M.editorBackground      = config.transparent and "NONE" or "#18181b"
+M.editorBackground      = config.transparent and "NONE" or "#080808"
 M.currentLineBackground = "#71717a"
 M.selectionBackground   = "#3c4848"
 M.popupBackground       = "#141818"
