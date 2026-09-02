@@ -4,12 +4,12 @@ local M = {
 	standardBlack = "#000000",
 }
 
-M.editorBackground = config.transparent and "NONE" or "#090B10"
-M.currentLineBackground = "#141922"
-M.selectionBackground = "#263246"
-M.popupBackground = "#10141C"
-M.menuOptionBackground = "#1A202B"
-M.border = "#293241"
+M.editorBackground = config.transparent and "NONE" or "#050706"
+M.currentLineBackground = "#0D120F"
+M.selectionBackground = "#17251D"
+M.popupBackground = "#0A0F0C"
+M.menuOptionBackground = "#111A15"
+M.border = "#1B2A22"
 M.mutedForeground = "#7A8494"
 M.mainText = "#DDE5EE"
 M.selectedText = "#F8FAFC"
