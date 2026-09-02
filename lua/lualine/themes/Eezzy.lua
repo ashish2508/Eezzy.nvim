@@ -42,7 +42,7 @@ M.terminal = {
 M.command = {
 	a = { fg = colors.editorBackground, bg = colors.syntaxKeyword, gui = "bold" },
 	b = { fg = colors.syntaxKeyword, bg = colors.editorBackground },
-	c = { fg = colors.ma, bg = config.transparent and "NONE" or colors.popupBackground },
+	c = { fg = colors.mainText, bg = config.transparent and "NONE" or colors.popupBackground },
 }
 
 return M
